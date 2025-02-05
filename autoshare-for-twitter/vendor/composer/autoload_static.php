@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit10upAutoshareForTwitterV221
+class ComposerStaticInit10upAutoshareForTwitterV230
 {
     public static $prefixLengthsPsr4 = array (
         'C' => 
@@ -47,9 +47,9 @@ class ComposerStaticInit10upAutoshareForTwitterV221
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit10upAutoshareForTwitterV221::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit10upAutoshareForTwitterV221::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit10upAutoshareForTwitterV221::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit10upAutoshareForTwitterV230::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit10upAutoshareForTwitterV230::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit10upAutoshareForTwitterV230::$classMap;
 
         }, null, ClassLoader::class);
     }
