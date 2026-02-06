@@ -4,25 +4,25 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit10upAutoshareForTwitterV231
+class ComposerStaticInit10upAutoshareForTwitterV233
 {
     public static $prefixLengthsPsr4 = array (
-        'C' => 
+        'C' =>
         array (
             'Composer\\CaBundle\\' => 18,
         ),
-        'A' => 
+        'A' =>
         array (
             'Abraham\\TwitterOAuth\\' => 21,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Composer\\CaBundle\\' => 
+        'Composer\\CaBundle\\' =>
         array (
             0 => __DIR__ . '/..' . '/composer/ca-bundle/src',
         ),
-        'Abraham\\TwitterOAuth\\' => 
+        'Abraham\\TwitterOAuth\\' =>
         array (
             0 => __DIR__ . '/..' . '/abraham/twitteroauth/src',
         ),
@@ -47,9 +47,9 @@ class ComposerStaticInit10upAutoshareForTwitterV231
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit10upAutoshareForTwitterV231::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit10upAutoshareForTwitterV231::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit10upAutoshareForTwitterV231::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit10upAutoshareForTwitterV233::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit10upAutoshareForTwitterV233::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit10upAutoshareForTwitterV233::$classMap;
 
         }, null, ClassLoader::class);
     }
