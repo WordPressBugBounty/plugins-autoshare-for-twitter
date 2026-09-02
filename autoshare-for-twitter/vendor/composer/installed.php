@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '10up/autoshare-for-twitter',
-        'pretty_version' => '2.3.3',
-        'version' => '2.3.3.0',
-        'reference' => '5344613e201f206cc46c4814e217389fcd4df38c',
+        'pretty_version' => '2.3.4',
+        'version' => '2.3.4.0',
+        'reference' => 'ff4e83e25788b65078efb2a4aea6ed2fb52ace2e',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         '10up/autoshare-for-twitter' => array(
-            'pretty_version' => '2.3.3',
-            'version' => '2.3.3.0',
-            'reference' => '5344613e201f206cc46c4814e217389fcd4df38c',
+            'pretty_version' => '2.3.4',
+            'version' => '2.3.4.0',
+            'reference' => 'ff4e83e25788b65078efb2a4aea6ed2fb52ace2e',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
